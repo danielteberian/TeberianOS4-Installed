@@ -1,0 +1,8 @@
+mkdir output &&
+cd output &&
+ls ../../ > packages &&
+sed -i '/_EXTENSIONS/d' packages &&
+ls ../../_EXTENSIONS/Perl > PerlModules &&
+ls ../../_EXTENSIONS/Python > PythonModules &&
+echo "FINISHED"
+
