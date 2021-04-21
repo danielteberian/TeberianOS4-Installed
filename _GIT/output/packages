@@ -21,6 +21,7 @@ CDParanoia-III
 CLucene
 CMake
 Compface
+Conda
 cURL
 D-Bus
 DBus-GLib
@@ -201,6 +202,7 @@ Opus
 p11-kit
 Pango
 Pangomm
+pciutils
 PCManFM
 PCRE
 PCRE2
@@ -233,6 +235,7 @@ Taglib
 Talloc
 Tidy-HTML5
 Time
+Tk
 Traceroute
 tree
 twm
@@ -272,7 +275,9 @@ xdriinfo
 xev
 xf86-input-evdev
 xf86-input-libinput
+xf86-video-ati
 xf86-video-fbdev
+xf86-video-intel
 xgamma
 xhost
 xinit
@@ -303,4 +308,5 @@ xwd
 xwininfo
 xwud
 yasm
+zim
 Zip
