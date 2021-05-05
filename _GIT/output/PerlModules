@@ -544,6 +544,7 @@ CPANPLUS
 CPANPLUS::Internals::Source::CPANIDX
 Crypt::Eksblowfish
 Crypt::Format
+Crypt::GPG
 Crypt::OpenSSL::Bignum
 Crypt::OpenSSL::Guess
 Crypt::OpenSSL::Random
@@ -630,6 +631,7 @@ Data::Section::Simple
 Data::Semantic
 Data::Semantic::URI
 Data::Stag
+Data::Structure::Util
 Data::TemporaryBag
 Data::Uniqid
 Data::UUID
@@ -1118,6 +1120,7 @@ File::Listing
 File::MoreUtil
 Filename::Compressed
 File::Next
+File::PathConvert
 File::Path::Stderr
 File::Path::Tiny
 File::Pid
@@ -1140,6 +1143,7 @@ File::Which
 Filter::Crypto
 Filter::signatures
 Filter::Simple
+Finance::YahooQuote
 Firefox::Util::Profile
 Fliggy
 FlightRecorder
@@ -1385,6 +1389,7 @@ GCC::Node::wrapper
 GCC::TranslationUnit
 GCC::TranslationUnit::Parser
 GCC::Tree
+GD
 Gen::Test::Rinci::FuncResult
 Geography::Countries
 Geo::IP
@@ -1418,6 +1423,8 @@ Graphics::ColorNames::Werner
 Graphics::ColorNames::Windows
 Graphics::ColorNames::WWW
 Graphics::ColorNames::X
+GraphViz
+GraphViz::ISA
 Grid::Coord
 Grid::Transform
 Guard
@@ -1472,8 +1479,10 @@ Image::Caa::DriverANSI
 Image::Caa::DriverCurses
 Image::Caa::DriverTest
 Image::CairoSVG
+Image::GD::Thumbnail
 Image::Info
 Image::Info::XS
+Image::Magick
 Image::SVG::Path
 Importer
 Import::Export
@@ -1492,6 +1501,7 @@ IO::Language
 IO::Lines
 IO::LockedFile
 IO::LockedFile::Flock
+IO::Null
 IO::Page
 IO::Pipely
 IO::Prompter
@@ -1567,6 +1577,7 @@ lib::abs
 lib::filter
 libintl::perl
 libwww::perl
+libxml::perl
 Lingua::31337
 Lingua::Abbreviate::Hierarchy
 Lingua::Ab::H
@@ -1647,6 +1658,8 @@ LINQ::Util
 LINQ::Util::Internal
 Linux::ACL
 Linux::APT
+Linux::AtaSmart
+Linux::AtaSmart::Constants
 Linux::Epoll
 Linux::Setns
 Liquid
@@ -1737,6 +1750,11 @@ Locale::BR
 Locale::CA
 Locale::CLDR
 Locale::CLDR::CalendarPreferences
+Locale::CLDR::Collator
+Locale::CLDR::CollatorBase
+Locale::CLDR::Currencies
+Locale::CLDR::EraBoundaries
+Locale::CLDR::LikelySubtags
 Locale::CLDR::Locales::Ar
 Locale::CLDR::Locales::Ar::Any
 Locale::CLDR::Locales::Ar::Any::001
@@ -1982,6 +2000,7 @@ MCE::Step
 MCE::Stream
 MCE::Subs
 MCE::Util
+MD5
 MDOM::Assignment
 MDOM::Command
 MDOM::Directive
@@ -2370,6 +2389,7 @@ Regexp::Common
 Regexp::Grammars
 Regexp::Stringify
 Regexp::Trie
+renrot
 Return::Type
 Role::HasMessage
 Role::Identifiable
@@ -2598,6 +2618,7 @@ TimeDate
 Time::Duration
 Time::Duration::Parse
 Time::Duration::Parse::AsHash
+Tk
 Trace::Mask
 Trace::Mask::Carp
 Trace::Mask::Reference
