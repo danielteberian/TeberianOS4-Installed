@@ -201,6 +201,7 @@ Archive::Zip
 Array::Compare
 Array::Diff
 Array::RefElem
+Astro::Utils
 Async
 Async::MergePoint
 Asyncore
@@ -236,6 +237,8 @@ Bytes::Random::Secure
 Cache::Cache
 Cairo
 Cairo::GObject
+Calendar::Bahai
+Calendar::Plugin::Renderer
 Canary::Stability
 Capture::Tiny
 Carp::Assert
@@ -410,8 +413,35 @@ Color::Brewer
 Color::Calc
 Color::Calc::WWW
 Color::Fade
+Color::HSL::Util
+Color::HSV::Util
 Color::Library
+Color::Library::Color
+Color::Library::Dictionary
+Color::Library::Dictionary::HTML
+Color::Library::Dictionary::IE
+Color::Library::Dictionary::Mozilla
+Color::Library::Dictionary::NBS_ISCC
+Color::Library::Dictionary::NBS_ISCC::A
+Color::Library::Dictionary::NBS_ISCC::B
+Color::Library::Dictionary::NBS_ISCC::F
+Color::Library::Dictionary::NBS_ISCC::H
+Color::Library::Dictionary::NBS_ISCC::M
+Color::Library::Dictionary::NBS_ISCC::P
+Color::Library::Dictionary::NBS_ISCC::R
+Color::Library::Dictionary::NBS_ISCC::RC
+Color::Library::Dictionary::NBS_ISCC::S
+Color::Library::Dictionary::NBS_ISCC::SC
+Color::Library::Dictionary::NBS_ISCC::TC
+Color::Library::Dictionary::Netscape
+Color::Library::Dictionary::SVG
+Color::Library::Dictionary::Tango
+Color::Library::Dictionary::VACCC
+Color::Library::Dictionary::Windows
+Color::Library::Dictionary::WWW
+Color::Library::Dictionary::X11
 Color::RGB::Util
+Color::Scheme
 Color::Spectrum
 ColorThemeBase::Static
 Combine::Keys
@@ -476,6 +506,7 @@ Complete::Zsh::Gen::FromPerinciCmdLine
 Compress::Bzip2
 Compress::Raw::Lzma
 Config::Any
+Config::AutoConf
 Config::Crontab
 Config::Crontab::Base
 Config::Crontab::Block
@@ -558,6 +589,7 @@ Crypt::Rijndael
 Crypt::RSA::Parse
 CryptX
 Curses
+Curses::UI
 Cwalitee::Common
 Cwd::Guard
 Data::Abridge
@@ -637,6 +669,7 @@ Data::Uniqid
 Data::UUID
 Data::Validator
 Date
+Date::Bahai::Simple
 Date::Converter
 Date::Converter::Alexandrian
 Date::Converter::Armenian
@@ -655,6 +688,7 @@ Date::Converter::Saka
 Date::Converter::Syrian
 Date::Converter::Tamil
 Date::Converter::Zoroastrian
+Date::Exception
 Date::Manip
 DateTime
 DateTime::BusinessHours
@@ -691,6 +725,7 @@ DateTime::Format::W3CDTF
 DateTime::Locale
 DateTime::Set
 DateTime::TimeZone
+Date::Utils
 DBD::CSV
 DBD::SQLite
 DBI
@@ -1439,6 +1474,7 @@ Hash::Util::FieldHash::Compat
 Heap
 Hook::LexWrap
 HTML::Defang
+HTML::Encoding
 HTML::FillInForm
 HTML::Form
 HTML::LinkExtractor
@@ -1788,6 +1824,7 @@ Locale::CLDR::Locales::Ar::Any::Tn
 Locale::CLDR::Locales::Ar::Any::Ye
 Locale::Codes
 Locale::Currency::Format
+Locale::gettext
 Locale::Maketext::Lexicon
 Locale::RecodeData::CP10007
 Locale::RecodeData::CP1250
@@ -2044,6 +2081,7 @@ Meta::Builder
 Method::Signatures
 Method::Signatures::Simple
 MIME::Base64
+MIME::Charset
 MIME::Detect
 MIME::Lite
 MIME::tools
@@ -2275,6 +2313,7 @@ Params::ValidationCompiler
 Parse::ABNF
 Parse::Hosts
 Parse::Keyword
+Parse::MediaWikiDump
 Parse::Method::Signatures
 Parse::RecDescent
 Parse::Services
@@ -2474,6 +2513,7 @@ Sub::Quote
 subroutines
 Sub::Uplevel
 SUPER
+SVG
 SVN::Dump
 SWF::File
 Switch::Again
@@ -2487,6 +2527,8 @@ Task::Weaken
 Template::Alloy
 Template::Toolkit
 Term::Activity
+Term::Animation
+Term::ANSIColor::Markup
 Term::ExtendedColor
 TermReadKey
 Term::Size
@@ -2584,6 +2626,7 @@ Test::YAML
 TeX::Encode
 Text::Affixes
 Text::ANSI::Util
+Text::CharWidth
 Text::CSV
 Text::CSV_XS
 Text::Diff
@@ -2602,6 +2645,7 @@ Text::Template
 Text::WagnerFischer
 Text::WagnerFischer::Armenian
 Text::WikiFormat
+Text::WrapI18N
 Text::Xslate
 Thrift
 Throwable
@@ -2618,6 +2662,7 @@ TimeDate
 Time::Duration
 Time::Duration::Parse
 Time::Duration::Parse::AsHash
+Time::Simple
 Tk
 Trace::Mask
 Trace::Mask::Carp
@@ -2640,6 +2685,8 @@ Types::Serialiser
 Type::Tiny
 Unicode::CaseFold
 Unicode::EastAsianWidth
+Unicode::GCString
+Unicode::LineBreak
 Unicode::Map
 Unicode::Map8
 Unicode::Peek
